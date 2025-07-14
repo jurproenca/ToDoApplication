@@ -8,7 +8,7 @@ public class AppDbContext : DbContext
     {
     }
 
-    public DbSet<ToDoTask> Tasks { get; set; }
+    public virtual DbSet<ToDoTask> Tasks { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
