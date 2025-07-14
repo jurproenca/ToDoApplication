@@ -23,6 +23,5 @@ Opção 2: Terminal (VS Code ou CLI)
   - http://localhost:5000 (HTTP)  
 
 Dependências Principais
-Microsoft.EntityFrameworkCore - ORM para banco de dados  
-MediatR - Padrão CQRS
+Microsoft.EntityFrameworkCore - ORM para banco de dados, MediatR - Padrão CQRS,
 FluentValidation - Validação de requests 
